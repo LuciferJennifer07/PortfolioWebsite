@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, Instagram } from 'lucide-react'; // Import Instagram icon
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -11,9 +11,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
     console.log('Form submitted:', formData);
-    // Reset form
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
@@ -93,12 +91,12 @@ const Contact = () => {
                   <Linkedin className="h-6 w-6 text-white" />
                 </a>
                 <a
-                  href="https://twitter.com/yuvrajtyagi"
+                  href="https://instagram.com/cyberyuvraj" // Update the link to your Instagram
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-blue-400 hover:bg-blue-500 p-3 rounded-full transition-colors duration-200"
+                  className="bg-pink-600 hover:bg-pink-700 p-3 rounded-full transition-colors duration-200"
                 >
-                  <Twitter className="h-6 w-6 text-white" />
+                  <Instagram className="h-6 w-6 text-white" /> {/* Replace Twitter with Instagram */}
                 </a>
               </div>
             </div>
