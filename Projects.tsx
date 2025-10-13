@@ -51,6 +51,23 @@ const Projects = () => {
       demo: "https://cyber-awareness-campaign.com",
       category: "Educational"
     }
+
+    {
+      title: "Email Phishing tool",
+      subtitle: "Educational Initiative",
+      icon: <Users className="h-8 w-8 text-green-400" />,
+      description: "PhishDetect AI is an intelligent email classification tool designed to help users identify phishing emails.",
+      features: [
+        "Interactive workshops",
+        "Educational materials",
+        "Community engagement",
+        "Impact measurement"
+      ],
+      technologies: ["Content Creation", "Social Media", "Workshops", "Analytics"],
+      github: "https://github.com/LuciferJennifer07/Ai-Model.git",
+      demo: "https://ai-model-phishing.streamlit.app/",
+      category: "Educational"
+    }
   ];
 
   return (
