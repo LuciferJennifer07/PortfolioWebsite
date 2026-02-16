@@ -4,7 +4,7 @@ import { Award, Trophy, Star, Target } from 'lucide-react';
 const Certifications = () => {
   const certifications = [
     {
-      title: "IoT Security Course",
+      title: "IoT Course",
       organization: "Cybersecurity Institute",
       date: "2024",
       icon: <Award className="h-8 w-8 text-blue-400" />,
