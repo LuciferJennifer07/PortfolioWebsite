@@ -29,7 +29,7 @@ const Hero = () => {
 
         <div className="flex items-center justify-center space-x-6 mb-12">
           <a
-            href="https://github.com/yuvrajtyagi"
+            href="https://github.com/LuciferJennifer07"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-gray-800 hover:bg-gray-700 rounded-full transition-colors duration-200"
@@ -37,7 +37,7 @@ const Hero = () => {
             <Github className="h-6 w-6 text-white" />
           </a>
           <a
-            href="https://linkedin.com/in/yuvrajtyagi"
+            href="https://in.linkedin.com/in/yuvraj-tyagi-486a0b306"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors duration-200"
@@ -45,7 +45,7 @@ const Hero = () => {
             <Linkedin className="h-6 w-6 text-white" />
           </a>
           <a
-            href="mailto:yuvraj.tyagi@example.com"
+            href="mailto:yuvrajtyagi34@gmail.com"
             className="p-3 bg-emerald-600 hover:bg-emerald-700 rounded-full transition-colors duration-200"
           >
             <Mail className="h-6 w-6 text-white" />
